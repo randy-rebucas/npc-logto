@@ -1,0 +1,19 @@
+# dependencies
+/node_modules
+
+# env
+.env
+
+# logs
+logs/
+
+# temp
+temp/
+
+# dist
+dist/
+
+# build
+build/
+
+
