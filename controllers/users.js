@@ -24,3 +24,7 @@ exports.getUserByEmail = async (req, res) => {
     res.json({ message: 'Hello World' });
 }
 
+exports.profile = async (req, res) => {
+    res.json(req.user);
+}
+
