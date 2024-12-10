@@ -1,0 +1,53 @@
+Create listing
+/v1/integration_api/listings/create
+
+{
+  "title": "Very good item",
+  "authorId": "654b9e4a-1eeb-4fd1-b0da-8c28bd135091",
+  "state": "published",
+  "description": "Brand new track bike.",
+  "geolocation": {
+    "lat": 40.64542,
+    "lng": -74.08508
+  },
+  "privateData": {
+    "externalServiceId": "new-service-id-4324"
+  },
+  "publicData": {
+    "address": {"country": "USA"},
+    "category": "track",
+    "gears": 22
+  },
+  "metadata": {
+    "verified": true,
+    "promoted": false,
+    "rating": 4
+  },
+  "images": [
+    "f8afadaa-dd4f-4536-b9a7-b405834dc25d"
+  ]
+}
+========
+Update listing
+/v1/integration_api/listings/update
+
+{
+  "id": "c6ff7190-bdf7-47a0-8a2b-e3136e74334f",
+  "description": "Brand new track bike.",
+  "privateData": {
+    "externalServiceId": "new-service-id-4324"
+  },
+  "publicData": {
+    "address": {"country": "USA"},
+    "category": "track",
+    "rules": null
+  },
+  "metadata": {
+    "verified": true,
+    "promoted": false,
+    "rating": 4
+  },
+  "images": [
+    "f8afadaa-dd4f-4536-b9a7-b405834dc25d"
+  ]
+}

@@ -22,7 +22,11 @@ const memberSchema = new mongoose.Schema({
     verified: Boolean
   },
   reason: Array,
-  timestamp: Number
+  timestamp: Date,
+  accountSynced: {
+    type: Boolean,
+    default: false
+  }
 }, {
   timestamps: true
 });
